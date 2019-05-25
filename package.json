@@ -1,0 +1,40 @@
+{
+  "name": "resumebuilder",
+  "version": "1.0.0",
+  "description": "Customize any resume with keywords for any company",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BadassBison/Resume_builder.git"
+  },
+  "keywords": [
+    "resume",
+    "keywords"
+  ],
+  "author": "Vu Tran, Shawn Scott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BadassBison/Resume_builder/issues"
+  },
+  "homepage": "https://github.com/BadassBison/Resume_builder#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "lodash": "^4.17.11",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
