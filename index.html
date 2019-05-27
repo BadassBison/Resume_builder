@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
+
+    <title>Resume Builder</title>
+</head>
+<body>
+    
+    <section class="hero is-info">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title is-primary" style="float: left; margin: 0;">
+                        Resume Builder
+                </h1>
+                <div class="select is-info" style="margin-bottom: 15px; float: right;">
+                    <select class="inp">
+                        <option>Amazon</option>
+                        <option>Apple</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" style="padding: 24px;">
+
+        <div class="field">
+            <label class="label">First Name</label>
+            <div class="control">
+                <input class="input inp is-info" type="text" placeholder="Text input">
+            </div>
+        </div>
+        
+        <div class="field">
+            <label class="label">Last Name</label>
+            <div class="control">
+                <input class="input inp is-info" type="text" placeholder="Text input">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Phone Number</label>
+            <div class="control">
+                <input class="input inp is-info" type="number" placeholder="Text input">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+                <input class="input inp is-info" type="email" placeholder="Text input">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">LinkedIn Url</label>
+            <div class="control">
+                <input class="input inp is-info" type="text" placeholder="Text input">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Github Url</label>
+            <div class="control">
+                <input class="input inp is-info" type="text" placeholder="Text input">
+            </div>
+        </div>
+        
+        <div class="field">
+            <label class="label">Portfolio Url</label>
+            <div class="control">
+                <input class="input inp is-info" type="text" placeholder="Text input">
+            </div>
+        </div>
+        
+        <div class="field">
+            <label class="label">Skills</label>
+            <div class="control">
+                <input class="input inp is-info" type="text" placeholder="Text input">
+            </div>
+        </div>
+        
+        <div class="field">
+            <label class="label">Education</label>
+            <div class="control">
+                <input class="input inp is-info" type="text" placeholder="Text input">
+            </div>
+        </div>
+
+
+
+        
+        <button class="button" id="submit">Build Resume</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
